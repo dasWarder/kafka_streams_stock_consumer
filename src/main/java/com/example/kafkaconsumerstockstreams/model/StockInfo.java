@@ -15,12 +15,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 public class StockInfo {
 
-    @Id
-    private Long id;
+  @Id private Long id;
 
-    @BsonProperty("name")
-    private String name;
+  @BsonProperty("name")
+  private String name;
 
-    @BsonProperty("quantity")
-    private Integer quantity;
+  @BsonProperty("quantity")
+  private Integer quantity;
 }

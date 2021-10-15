@@ -4,5 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 
 public interface StockInfoService {
 
-    void consume(String info) throws JsonProcessingException;
+  void consume(String info) throws JsonProcessingException;
+
+  Integer getQuantityByName(String name);
 }
