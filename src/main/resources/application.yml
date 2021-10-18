@@ -6,6 +6,7 @@ spring:
     consumer:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      bootstrap-servers: 127.0.0.1:9093
   data:
     mongodb:
       uri: ${MONGO_CLUSTER_URI}
